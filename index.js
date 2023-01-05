@@ -23,7 +23,6 @@ async function invokeAction({ action, id, name, email, phone }) {
     case "list":
       listContacts();
       break;
-      break;
 
     case "get":
       getContactById(id);
